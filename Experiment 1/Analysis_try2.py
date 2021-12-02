@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv("data.csv", sep=",")
+data = pd.read_csv("data_transmission.csv", sep=",")
 
 # The x axis are the same for the 3 experiments
 x = data['lambda']
